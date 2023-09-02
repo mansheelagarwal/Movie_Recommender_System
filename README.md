@@ -22,5 +22,7 @@ cd Movie_Recommender_System
 jupyter notebook "Movie recommender (2).ipynb"
 
 
+## Acknowledgments
 
+I would like to express my gratitude to - **krishnaik06**: For the initial project idea and dataset that served as the foundation for this work.
 
