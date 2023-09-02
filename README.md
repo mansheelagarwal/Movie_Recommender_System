@@ -10,6 +10,11 @@ This project demonstrates the following steps:
 3. Exploratory data analysis (EDA) of movie ratings.
 4. Building a basic movie recommendation system.
 
+   
+## Acknowledgements
+
+I would like to express my gratitude to - **krishnaik06**: For the initial project idea and dataset that served as the foundation for this work.
+
 ## Usage
 
 To run this code, you'll need Python installed on your machine. You can download Python from [python.org](https://www.python.org/downloads/).
@@ -22,7 +27,4 @@ cd Movie_Recommender_System
 jupyter notebook "Movie recommender (2).ipynb"
 
 
-## Acknowledgments
-
-I would like to express my gratitude to - **krishnaik06**: For the initial project idea and dataset that served as the foundation for this work.
 
