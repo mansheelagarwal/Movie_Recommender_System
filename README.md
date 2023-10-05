@@ -1,5 +1,5 @@
 # Movie Recommender System
-
+![MovieRecommender](https://github.com/mansheelagarwal/Movie_Recommender_System/assets/76102724/7630c0a9-39ec-48f4-94e4-29aa1949795f)
 ## My first project ever
 This was my first project completed in the year 2021 and it was my first choice due to its indulging subject and real-world applicability. The attached ipnyb file consists of a collaborative filtering-based recommender system that recommends movies based on the interests and interactions of the user rather than delving into the item and user types.
 
