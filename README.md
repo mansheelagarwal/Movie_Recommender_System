@@ -1,30 +1,28 @@
 # Movie Recommender System
 
-This project, named "Movie Recommender System," was initially created in October 2021. It serves as a basic movie recommender system using Python, Pandas, NumPy, and data visualization libraries.
+## My first project ever
+This was my first project completed in the year 2021 and it was my first choice due to its indulging subject and real-world applicability. The attached ipnyb file consists of a collaborative filtering-based recommender system that recommends movies based on the interests and interactions of the user rather than delving into the item and user types.
 
-## Introduction
+I would like to share the credit for this work with @krishnaik06
 
-This project demonstrates the following steps:
-1. Loading movie ratings data from a remote source.
-2. Combining movie ratings with movie titles.
-3. Exploratory data analysis (EDA) of movie ratings.
-4. Building a basic movie recommendation system.
+## Flow of the work
+1. Reading data into my Jupyter Notebook through
+```
+df = pd.read_csv('https://raw.githubusercontent.com/krishnaik06/Movie-Recommender-in-python/master/u.data', sep='\t', names=column_names)
+```
+2. Sorting the data frame according to the mean ratings (in descending order to display the most highly rated recommendation at the top)
+```
+   movie_ratings = df.groupby('title')['rating'].mean().sort_values(ascending=False).head()
+```
+3. Sorting the movies by the number of ratings (good/bad to take into consideration the popular rating of a movie)
+```
+   ratings.sort_values('num of ratings', ascending=False).head(10)
+```
+4. Calculating and displaying the most correlated movie (find code in the ipnyb file)
 
-   
-## Acknowledgements
-
-I would like to express my gratitude to - **krishnaik06**: For the initial project idea and dataset that served as the foundation for this work.
-
-## Usage
-
-To run this code, you'll need Python installed on your machine. You can download Python from [python.org](https://www.python.org/downloads/).
-
-1. Clone this repository to your local machine, navigate to the project directory, and run the Jupyter Notebook named "Movie recommender (2).ipynb" in your preferred environment :
-
-```bash
-git clone https://github.com/yourusername/Movie_Recommender_System.git
-cd Movie_Recommender_System
-jupyter notebook "Movie recommender (2).ipynb"
-
-
-
+## What I learned through this project 
+- All about the different types of recommender systems (Chose to work on collaborative based recommender)
+- How to deal with missing data and how to prepare or pre-process the data for a specific use
+- Basic Python libraries including Numpy and Pandas
+- Visualization libraries in Python (Matplotlib and Seaborn used)
+- Most importantly, the flow of a project
